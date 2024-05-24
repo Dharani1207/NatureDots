@@ -18,6 +18,6 @@
 
 - load the provided GeoJSON file from the data directory as geojsonpath
 - Run all the cells in script.ipynb
-- The GeoJSON file has 4 polygons corresponding 4 lakes. Choose the desired polygon number in the line “water_body_geom = gdf.geometry.iloc[***3***]” to compute timeseries for the desired polygon/lake.
+- The GeoJSON file contains information for four distinct polygons, each representing a different lake. To analyze a specific lake, adjust the line "water_body_geom = gdf.geometry.iloc[3]" by replacing the index number (3) with the corresponding index of the desired lake's polygon: 0 for the first lake, 1 for the second lake, 2 for the third lake, and so on
 - The timeseries plot gets rendered in IDE and saved to the results directory.
 </aside>
