@@ -4,10 +4,9 @@
 💡 This GitHub repository consists of a Python script that takes a GeoJSON file representing an inland water body and a time range as input and returns the surface water extent time series for the specified water body and period.
 </aside>
 
-
-
-
 <aside>
+
+  
   💡The shapefile is downloaded from Natural Earth Data (**1:10m Physical Vectors**) for the historic lakes from the United States region, [https://www.naturalearthdata.com/downloads/10m-physical-vectors/](https://www.naturalearthdata.com/downloads/10m-physical-vectors/).
 
 - It comprises polygon geometry for 4 large lakes in the region.
