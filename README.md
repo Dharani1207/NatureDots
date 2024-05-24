@@ -6,7 +6,7 @@
 
 ## GeoJSON Information
 
-💡 The historic lakes data is sourced as shapefile from Natural Earth Data (1:10m Physical Vectors) for the United States region. You can access the dataset [here](https://www.naturalearthdata.com/downloads/10m-physical-vectors/). It encompasses polygon geometry for four significant lakes within the region. The original shapefile has been converted to GeoJSON format using the GeoCloud converter, accessible [here](https://mygeodata.cloud/converter/shp-to-geojson). The chosen time range for analysis spans from 2016 to 2023. 
+💡 The historic lakes GeoJSON is sourced as a shapefile from Natural Earth Data (1:10m Physical Vectors). You can access the shapefile [here](https://www.naturalearthdata.com/downloads/10m-physical-vectors/). The selected shapefile is for historic lakes under the lakes and reservoirs category. It encompasses polygon geometry for four significant lakes. The original shapefile has been converted to GeoJSON format using the GeoCloud converter, accessible [here](https://mygeodata.cloud/converter/shp-to-geojson). The chosen time range for analysis spans from 2016 to 2023. 
 
 ## JRC Global Surface Water Dataset
 
@@ -19,6 +19,6 @@
 💡 To conduct the analysis:
 - Start by loading the provided GeoJSON file from the data directory as 'geojson_path'.
 - Execute all cells within the 'script.ipynb' notebook.
-- The GeoJSON file contains data for four distinct polygons, each representing a different lake. To focus on a specific lake, adjust the line "water_body_geom = gdf.geometry.iloc[3]" by substituting the index number (3) with the corresponding index for the desired lake's polygon. Use 0 for the first lake, 1 for the second, 2 for the third, and so forth.
+- The GeoJSON file contains data for four distinct polygons, each representing a different lake. To focus on a specific lake, adjust the line "water_body_geom = gdf.geometry.iloc[3]" by substituting the index number (3) with the corresponding index for the desired lake's polygon. Use 0 for the first lake, 1 for the second, 2 for the third, and 3 for the fourth lake.
 - The resulting time series plot will be rendered in your integrated development environment (IDE) and saved to the current directory.
 - The results folder comprises of time series for each lake in the period 2016 to 2023. One other time series for lake 3 was experimented for the period 2000 to 2023.
