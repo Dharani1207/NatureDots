@@ -20,4 +20,5 @@
 - Start by loading the provided GeoJSON file from the data directory as 'geojson_path'.
 - Execute all cells within the 'script.ipynb' notebook.
 - The GeoJSON file contains data for four distinct polygons, each representing a different lake. To focus on a specific lake, adjust the line "water_body_geom = gdf.geometry.iloc[3]" by substituting the index number (3) with the corresponding index for the desired lake's polygon. Use 0 for the first lake, 1 for the second, 2 for the third, and so forth.
-- The resulting time series plot will be rendered in your integrated development environment (IDE) and saved to the 'results' directory.
+- The resulting time series plot will be rendered in your integrated development environment (IDE) and saved to the current directory.
+- The results folder comprises of time series for each lake in the period 2016 to 2023. One other time series for lake 3 was experimented for the period 2000 to 2023.
