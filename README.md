@@ -7,6 +7,7 @@
 
 <aside>
 
+
   💡The shapefile is downloaded from Natural Earth Data (**1:10m Physical Vectors**) for the historic lakes from the United States region, [https://www.naturalearthdata.com/downloads/10m-physical-vectors/](https://www.naturalearthdata.com/downloads/10m-physical-vectors/).
 
 - It comprises polygon geometry for 4 large lakes in the region.
