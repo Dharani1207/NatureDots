@@ -2,6 +2,8 @@
 
 <aside>
 💡 This GitHub repository consists of a Python script that takes a GeoJSON file representing an inland water body and a time range as input and returns the surface water extent time series for the specified water body and period.
+
+  
 </aside>
 
 <aside>
